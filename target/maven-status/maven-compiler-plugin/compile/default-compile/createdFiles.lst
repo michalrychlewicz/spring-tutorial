@@ -1,0 +1,8 @@
+com\springtutorial\mvc\StudentController.class
+com\springtutorial\mvc\HomeController.class
+model\Course.class
+model\Student.class
+com\springtutorial\mvc\SillyController.class
+com\springtutorial\mvc\CustomerController.class
+com\springtutorial\mvc\HelloWorldController.class
+model\Customer.class
