@@ -29,7 +29,12 @@ public class OneToManyDemoApp {
 
             session.beginTransaction();
             System.out.println("instructor before persisting = " + instructor);
-
+            Course course = new Course("Angielski");
+            Course course2 = new Course("Niemiecki");
+            instructor.addCourse(course);
+            instructor.addCourse(course2);
+            course.setInstructor(instructor);
+            course2.setInstructor(instructor);
             session.save(instructor);
             System.out.println("Persisted");
 
